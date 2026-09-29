@@ -15,9 +15,13 @@ Minimalist Launcher is an Android home-screen launcher. It has no accounts, no a
 
 ## What goes over the network
 
-The only network request the app makes is for the **daily wallpaper**, to the [Unsplash API](https://unsplash.com). The request contains the wallpaper category you chose in Settings (for example "nature") and the app's Unsplash API key. Like any internet request, it reveals your device's IP address to Unsplash. Unsplash's own [privacy policy](https://unsplash.com/privacy) applies to that request. The app shows the photographer's credit as Unsplash requires.
+The only network request the app makes is for the **daily wallpaper**, to the [Unsplash API](https://unsplash.com). The request contains the wallpaper category you chose in Settings (for example "nature") and the app's Unsplash API key. Like any internet request, it reveals your device's IP address to Unsplash. The request is sent over HTTPS. Unsplash's own [privacy policy](https://unsplash.com/privacy) applies to that request. The app shows the photographer's credit as Unsplash requires.
 
 The app does not use any advertising or analytics service, and it does not include any tracking.
+
+## Retention and deletion
+
+The developer holds no data about you: there are no accounts and no servers. Everything the app stores (settings, favourites, folders, hidden apps, the cached wallpaper and a wallpaper image you picked) lives only in the app's private storage on your device. You can delete it at any time by clearing the app's storage in Android's settings, and it is removed when you uninstall the app.
 
 ## Children
 
@@ -50,9 +54,13 @@ Minimalist Launcher הוא לאנצ'ר (מסך בית) לאנדרואיד. אי�
 
 ## מה עובר ברשת
 
-הבקשה היחידה שהאפליקציה שולחת ברשת היא עבור **הטפט היומי**, אל [ה-API של Unsplash](https://unsplash.com). הבקשה כוללת את קטגוריית הטפט שבחרת בהגדרות (למשל "טבע") ואת מפתח ה-API של האפליקציה. כמו כל בקשת אינטרנט, היא חושפת ל-Unsplash את כתובת ה-IP של המכשיר. על הבקשה הזו חלה [מדיניות הפרטיות של Unsplash](https://unsplash.com/privacy). האפליקציה מציגה את קרדיט הצלם כפי ש-Unsplash דורשת.
+הבקשה היחידה שהאפליקציה שולחת ברשת היא עבור **הטפט היומי**, אל [ה-API של Unsplash](https://unsplash.com). הבקשה כוללת את קטגוריית הטפט שבחרת בהגדרות (למשל "טבע") ואת מפתח ה-API של האפליקציה. כמו כל בקשת אינטרנט, היא חושפת ל-Unsplash את כתובת ה-IP של המכשיר. הבקשה נשלחת ב-HTTPS. על הבקשה הזו חלה [מדיניות הפרטיות של Unsplash](https://unsplash.com/privacy). האפליקציה מציגה את קרדיט הצלם כפי ש-Unsplash דורשת.
 
 האפליקציה לא משתמשת בשום שירות פרסום או ניתוח שימוש, ואין בה מעקב.
+
+## שמירת מידע ומחיקה
+
+למפתח אין שום מידע עליך: אין חשבונות ואין שרתים. כל מה שהאפליקציה שומרת (הגדרות, מועדפים, תיקיות, אפליקציות מוסתרות, הטפט השמור ותמונת טפט שבחרת) נמצא רק באחסון הפרטי של האפליקציה במכשיר שלך. אפשר למחוק אותו בכל רגע דרך ניקוי האחסון של האפליקציה בהגדרות אנדרואיד, והוא נמחק כשמסירים את האפליקציה.
 
 ## ילדים
 
